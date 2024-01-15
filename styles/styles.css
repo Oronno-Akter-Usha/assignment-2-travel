@@ -1,0 +1,22 @@
+/* import google mulish font */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;700;800&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Mulish', sans-serif;
+}
+:root{
+    --primary-color: #FF5400;
+    --primary-txt-color: #131318;
+    --p-txt-color: #5A5A5D;
+    --txt-color: rgba(19, 19, 24, 0.70);
+}
+
+/* fw = font-weight */
+.fw-400{
+    font-weight: 400;
+}
+
+.fw-800{
+    font-weight: 800;
+}
