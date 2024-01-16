@@ -16,17 +16,17 @@
 
 /* shared styles */
 /* h2 style */
-h2{
+h2 {
     color: var(--primary-txt-color);
     font-size: 2.5rem;
     font-weight: 800;
 }
 
-.p-txt-color{
+.p-txt-color {
     color: var(--p-txt-color);
 }
 
-.txt-color{
+.txt-color {
     color: var(--txt-color);
 }
 
@@ -120,7 +120,7 @@ h2{
 }
 
 /* tour section */
-.tour-container{
+.tour-container {
     max-width: 1170px;
     margin: 0px auto;
     display: flex;
@@ -128,74 +128,81 @@ h2{
     align-items: center;
     column-gap: 53px;
 }
-.tour-text{
+
+.tour-text {
     width: 45%;
 }
 
-.tour-image{
+.tour-image {
     width: 45%;
 }
-.tour-image img{
+
+.tour-image img {
     width: 100%;
 }
 
-.tour-text h2{
+.tour-text h2 {
     margin-bottom: 24px;
 }
-.tour-text p{
+
+.tour-text p {
     margin: 24px 0px;
     line-height: 26px;
 }
 
-.tour-text ul li{
+.tour-text ul li {
     margin-bottom: 16px;
     line-height: 22px;
 }
 
-.tour-text .btn{
+.tour-text .btn {
     padding: 14px 34px;
 }
 
 
 /* destination section style*/
-.destination-container{
+.destination-container {
     max-width: 1170px;
     margin: 100px auto;
     text-align: center;
 }
 
-.destination-text{
+.destination-text {
     width: 75%;
     margin: 0px auto;
 }
 
-.destination-text p{
+.destination-text p {
     margin: 24px auto 48px;
     line-height: 26px;
 }
 
 
-.destination-image-container h4{
+.destination-image-container h4 {
     font-weight: 800;
     font-size: 1.75rem;
     color: #FFF;
 }
 
 /* destination-image-container */
-.destination-image-container{
+.destination-image-container {
 
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 24px;
 }
 
-.destination-image-container img{
+.destination-image-container img {
     width: 100%;
 }
 
-.maldives, .indonesia,
- .srilanka, .north-america, .kashmir,
- .bangladesh, .bandarban{
+.maldives,
+.indonesia,
+.srilanka,
+.north-america,
+.kashmir,
+.bangladesh,
+.bandarban {
     position: relative;
 }
 
@@ -206,7 +213,8 @@ h2{
     grid-template-columns: 1fr 1fr;
     column-gap: 24px;
 }
-.row-1 h4{
+
+.row-1 h4 {
     position: absolute;
     top: 45%;
     left: 40%;
@@ -217,11 +225,13 @@ h2{
     grid-template-columns: 374px 474px 272px;
     column-gap: 24px;
 }
-.row-2 h4{
+
+.row-2 h4 {
     position: absolute;
     top: 40%;
     left: 32%;
 }
+
 .row-3 {
     display: grid;
     grid-template-columns: 473px 673px;
@@ -229,8 +239,74 @@ h2{
     row-gap: 0px;
 }
 
-.row-3 h4{
+.row-3 h4 {
     position: absolute;
     top: 40%;
     left: 35%;
+}
+
+
+/* choose-us section */
+.choose-us-container {
+    max-width: 1170px;
+    margin: 0px auto 100px;
+    text-align: center;
+}
+
+.choose-us-container > p {
+    width: 60%;
+    line-height: 26px;
+    margin: 24px auto 48px;
+}
+
+.choose-us-container .card-container {
+    max-width: 1170px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    /* margin-top: 48px; */
+}
+
+.choose-us-container .card {
+    width: 509px;
+    height: 220px;
+    text-align: left;
+    padding: 32px;
+    border-radius: 16px;
+
+}
+
+.hotel {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+}
+
+.card-2 {
+    margin-top: 48px;
+    display: flex;
+    gap: 24px;
+}
+
+.card-container h5 {
+    font-size: 24px;
+    margin: 16px 0px;
+    font-weight: 800;
+}
+
+.card-container p {
+    line-height: 26px;
+    margin-bottom: 48px;
 }
