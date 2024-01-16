@@ -155,3 +155,81 @@ h2{
 .tour-text .btn{
     padding: 14px 34px;
 }
+
+
+/* destination section style*/
+.destination-container{
+    max-width: 1170px;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.destination-text{
+    width: 75%;
+    margin: 0px auto;
+}
+
+.destination-text p{
+    margin: 24px auto 48px;
+    line-height: 26px;
+}
+
+
+.destination-image-container h4{
+    font-weight: 800;
+    font-size: 1.75rem;
+    color: #FFF;
+}
+
+/* destination-image-container */
+.destination-image-container{
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    row-gap: 24px;
+}
+
+.destination-image-container img{
+    width: 100%;
+}
+
+.maldives, .indonesia,
+ .srilanka, .north-america, .kashmir,
+ .bangladesh, .bandarban{
+    position: relative;
+}
+
+
+
+.row-1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 24px;
+}
+.row-1 h4{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+}
+.row-2 h4{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
+.row-2 {
+    display: grid;
+    grid-template-columns: 374px 474px 272px;
+    column-gap: 24px;
+}
+
+.row-3 {
+    display: grid;
+    grid-template-columns: 473px 673px;
+    column-gap: 24px;
+    row-gap: 0px;
+}
+
+.row-3 h4{
+    position: absolute;
+    top: 40%;
+    left: 35%;
+}
