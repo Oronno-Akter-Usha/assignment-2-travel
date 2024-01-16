@@ -168,4 +168,19 @@
     .save h3{
         font-size: 21px;
     }
+
+    /* footer section */
+    .footer-container{
+        margin-top: 5px;
+    }
+    .footer-container .logo{
+        padding: 33px 0 0;
+    }
+    .social-icon{
+        margin: 16px 0;
+    }
+    .right{
+        padding-bottom: 33px;
+    }
+
 }
