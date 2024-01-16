@@ -14,10 +14,40 @@
     --txt-color: rgba(19, 19, 24, 0.70);
 }
 
+/* shared styles */
+/* h2 style */
+h2{
+    color: var(--primary-txt-color);
+    font-size: 2.5rem;
+    font-weight: 800;
+}
+
+.p-txt-color{
+    color: var(--p-txt-color);
+}
+
+.txt-color{
+    color: var(--txt-color);
+}
+
+
 /* fw = font-weight */
 
 .fw-800 {
     font-weight: 800;
+}
+
+
+
+/* btn style */
+.btn {
+    color: #FFF;
+    border-radius: 8px;
+    background-color: var(--primary-color);
+    border: none;
+    font-weight: 800;
+    font-size: 1.25rem;
+    cursor: pointer;
 }
 
 /* banner section style */
@@ -87,4 +117,38 @@
     border: none;
     border-radius: 8px;
     cursor: pointer;
+}
+
+/* tour section */
+.tour-container{
+    max-width: 1170px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    column-gap: 53px;
+}
+.tour-text{
+    width: 45%;
+}
+
+.tour-image{
+    width: 45%;
+}
+
+.tour-text h2{
+    margin-bottom: 24px;
+}
+.tour-text p{
+    margin: 24px 0px;
+    line-height: 26px;
+}
+
+.tour-text ul li{
+    margin-bottom: 16px;
+    line-height: 22px;
+}
+
+.tour-text .btn{
+    padding: 14px 34px;
 }
