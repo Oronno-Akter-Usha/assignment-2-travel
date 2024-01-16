@@ -183,6 +183,7 @@ h2{
 
 /* destination-image-container */
 .destination-image-container{
+
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 24px;
@@ -210,17 +211,17 @@ h2{
     top: 45%;
     left: 40%;
 }
-.row-2 h4{
-    position: absolute;
-    top: 40%;
-    left: 32%;
-}
+
 .row-2 {
     display: grid;
     grid-template-columns: 374px 474px 272px;
     column-gap: 24px;
 }
-
+.row-2 h4{
+    position: absolute;
+    top: 40%;
+    left: 32%;
+}
 .row-3 {
     display: grid;
     grid-template-columns: 473px 673px;

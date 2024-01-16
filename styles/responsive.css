@@ -58,4 +58,39 @@
         display: flex;
         justify-content: center;
     }
+
+    /* destination section */
+    .destination-image-container img{
+        /* width: 80%; */
+        width:  335px;
+        height: 176px;
+        margin-bottom: 16px;
+    }
+
+    .destination-image-container{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0px;
+    }
+
+    .destination-image-container h4{
+        font-size: 1.25rem;
+        font-weight: 700;
+    }
+    .row-1, .row-2, .row-3{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .row-2 h4{
+        position: absolute;
+        top: 37%;
+        left: 41%;
+    }
+    .row-3 h4{
+        position: absolute;
+        top: 37%;
+        left: 37%;
+    }
 }
