@@ -63,11 +63,33 @@ h2 {
     color: var(--primary-color);
 }
 
+/* nav-section */
+
+.nav-container{
+    max-width: 1170px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul{
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    gap: 44px;
+}
+.menu ul a{
+    color: #424247;
+    text-decoration: none;
+    font-size: 18px;
+}
+
 /* banner section style */
 .banner-container {
     max-width: 1170px;
     height: 500px;
-    margin: 146px auto 100px;
+    margin: 0 auto 100px;
     border-radius: 16px;
     background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url('../images/banner.png');
     background-position: center;
@@ -199,7 +221,7 @@ h2 {
 
 /* destination-image-container */
 .destination-image-container {
-
+    max-width: 1170px;
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
     row-gap: 24px;
@@ -322,6 +344,40 @@ h2 {
 .price {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+
+/* faq-section */
+.faq-section{
+    max-width: 1170px;
+    height: 700px;
+    margin: 0px auto 100px;
+    background-color: rgb(252 158 87 / 43%);
+    border-radius: 30px;
+}
+
+.faq-section h2{
+    padding-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.faq-section .faq-text{
+    width: 80%;
+    margin: 0 auto;
+}
+.faq-text .ques{
+    font-weight: 700;
+    padding-bottom: 5px;
+}
+
+.faq-text .ans{
+    line-height: 20px;
+}
+
+.faq-text hr{
+    margin: 20px 0;
+    border: 1px solid rgba(173, 103, 81, 0.5);
 }
 
 

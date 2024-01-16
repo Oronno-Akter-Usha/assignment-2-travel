@@ -11,6 +11,13 @@
         font-weight: 400;
     }
 
+    .logo-img{
+        width: 40px;
+    }
+    .menu{
+        display: none;
+    }
+
     /* banner section style */
     .banner-container {
         width: 90%;
@@ -116,7 +123,7 @@
 
     .choose-us-container .card {
         width: 70%;
-        height: 220px;
+        height: auto;
         margin-top: 5px;
     }
 
@@ -135,6 +142,12 @@
 
     .card-container p {
         line-height: 24px;
+    }
+    /* faq-section */
+    .faq-section{
+        width: 80%;
+        height: auto;
+        padding-bottom: 20px;
     }
 
     /* .newsletter section */
@@ -171,7 +184,7 @@
 
     /* footer section */
     .footer-container{
-        margin-top: 5px;
+        margin-top: 50px;
     }
     .footer-container .logo{
         padding: 33px 0 0;
