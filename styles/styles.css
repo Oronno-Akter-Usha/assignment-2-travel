@@ -253,8 +253,8 @@ h2 {
     text-align: center;
 }
 
-.choose-us-container > p {
-    width: 60%;
+.choose-us-description {
+    width: 70%;
     line-height: 26px;
     margin: 24px auto 48px;
 }
@@ -279,21 +279,6 @@ h2 {
 
 }
 
-.hotel {
-    border: 1px solid rgba(251, 181, 99, 0.20);
-    background: rgba(251, 181, 99, 0.05);
-}
-
-.service {
-    border: 1px solid rgba(41, 206, 246, 0.20);
-    background: rgba(41, 206, 246, 0.05);
-}
-
-.price {
-    border: 1px solid rgba(233, 68, 68, 0.20);
-    background: rgba(233, 68, 68, 0.05);
-}
-
 .card-2 {
     margin-top: 48px;
     display: flex;
@@ -309,4 +294,19 @@ h2 {
 .card-container p {
     line-height: 26px;
     margin-bottom: 48px;
+}
+
+.hotel {
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+}
+
+.service {
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+}
+
+.price {
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
 }

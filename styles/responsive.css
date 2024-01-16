@@ -1,11 +1,12 @@
 @media screen and (max-width:600px) {
 
     /* h2 and p font size  */
-    h2{
+    h2 {
         font-size: 1.25rem;
         font-weight: 800;
     }
-    p{
+
+    p {
         font-size: 0.88rem;
         font-weight: 400;
     }
@@ -16,34 +17,40 @@
         height: 500px;
         background-image: center;
     }
-    .banner-text h1{
+
+    .banner-text h1 {
         font-size: 1.38rem;
         margin: 32px auto 10px;
     }
-    .banner-text p{
+
+    .banner-text p {
         font-size: 0.88rem;
         margin: 0 auto;
         width: 80%;
     }
+
     .banner-input-container {
         flex-direction: column;
         margin-top: 32px;
     }
-    .banner-input-container input{
+
+    .banner-input-container input {
         width: 85%;
     }
+
     .banner-select,
-    .banner-btn{
+    .banner-btn {
         width: 90%;
     }
 
     /* tour section style */
-    .tour-container{
+    .tour-container {
         flex-direction: column;
 
     }
 
-    .tour-text, .tour-image{
+    .tour-text,
+    .tour-image {
         width: 90%;
     }
 
@@ -52,45 +59,82 @@
         margin-left: 5%;
         /* margin-right: 10%; */
     }
-    
-    .tour-image{
+
+    .tour-image {
         margin-top: 50px;
         display: flex;
         justify-content: center;
     }
 
     /* destination section */
-    .destination-image-container img{
+    .destination-container {
+        margin-bottom: 0px;
+    }
+
+    .destination-image-container img {
         /* width: 80%; */
-        width:  335px;
+        width: 335px;
         height: 176px;
         margin-bottom: 16px;
     }
 
-    .destination-image-container{
+    .destination-image-container {
         display: flex;
         flex-direction: column;
         row-gap: 0px;
     }
 
-    .destination-image-container h4{
+    .destination-image-container h4 {
         font-size: 1.25rem;
         font-weight: 700;
     }
-    .row-1, .row-2, .row-3{
+
+    .row-1,
+    .row-2,
+    .row-3 {
         display: flex;
         flex-direction: column;
         text-align: center;
     }
 
-    .row-2 h4{
+    .row-2 h4 {
         position: absolute;
         top: 37%;
         left: 41%;
     }
-    .row-3 h4{
+
+    .row-3 h4 {
         position: absolute;
         top: 37%;
         left: 37%;
     }
+
+    /* choose-us section */
+    .choose-us-description {
+        margin: 16px auto;
+    }
+
+    .choose-us-container .card {
+        width: 70%;
+        height: 220px;
+        margin-top: 5px;
+    }
+
+    .card-2 {
+        flex-direction: column;
+        gap: 16px;
+        justify-content: center;
+        align-items: center;
+        margin-top: 16px;
+    }
+
+    .card-container h5 {
+        font-size: 20px;
+        font-weight: 800;
+    }
+
+    .card-container p {
+        line-height: 24px;
+    }
+
 }
