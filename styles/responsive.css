@@ -1,0 +1,27 @@
+@media screen and (max-width:600px) {
+    .banner-container {
+        width: 90%;
+        height: 500px;
+        background-image: center;
+    }
+    .banner-text h1{
+        font-size: 1.38rem;
+        margin: 32px auto 10px;
+    }
+    .banner-text p{
+        font-size: 0.88rem;
+        margin: 0 auto;
+        width: 80%;
+    }
+    .banner-input-container {
+        flex-direction: column;
+        margin-top: 32px;
+    }
+    .banner-input-container input{
+        width: 85%;
+    }
+    .banner-select,
+    .banner-btn{
+        width: 90%;
+    }
+}
