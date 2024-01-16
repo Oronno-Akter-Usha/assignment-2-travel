@@ -271,7 +271,7 @@ h2 {
 }
 
 .choose-us-container .card {
-    width: 509px;
+    width: 50%;
     height: 220px;
     text-align: left;
     padding: 32px;
@@ -309,4 +309,87 @@ h2 {
 .price {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
+}
+
+
+/* Newsletter section */
+.newsletter-container {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 24px;
+}
+
+.newsletter-input-container {
+    width: 33%;
+    padding: 40px;
+    height: 342px;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter-input-container h4 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-txt-color);
+    margin-bottom: 16px;
+}
+
+.newsletter-input-container p {
+    line-height: 26px;
+    margin-bottom: 24px;
+}
+
+.newsletter-input-container hr {
+    border: 1px solid rgba(19, 19, 24, 0.10);
+    margin-bottom: 24px;
+}
+
+.newsletter-input-container input {
+    width: 80%;
+    /* height: 52px; */
+    margin: 10px;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: rgba(19, 19, 24, 0.05);
+}
+
+.newsletter-input-container .btn {
+    width: 88%;
+    background-color: var(--primary-color);
+}
+
+
+
+
+.newsletter-image-container{
+    width: 57%;
+    /* max-width: 672px; */
+    position: relative;
+}
+.newsletter-image-container .save {
+    width: 304px;
+    height: 120px;
+    background-color: var(--primary-color);
+    color: #FFF;
+    border-radius: 16px;
+    position: absolute;
+    right: 12px;
+    bottom: 60px;
+    transform: rotate(338deg);
+    text-align: center;
+    padding-top: 20px;
+ 
+}
+
+.save p{
+    font-size: 1.5rem;
+}
+.save h3{
+    font-size: 2rem;
+    font-weight: 800;
 }
