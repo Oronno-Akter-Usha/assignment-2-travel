@@ -58,6 +58,13 @@ h2 {
 
 .logo{
     display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo-text h2{
+    padding-left: 8px;
+    font-size: 1.5rem;
 }
 .tour{
     color: var(--primary-color);
