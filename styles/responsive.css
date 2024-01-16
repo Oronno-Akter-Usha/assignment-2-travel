@@ -137,4 +137,35 @@
         line-height: 24px;
     }
 
+    /* .newsletter section */
+    .newsletter-container {
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .newsletter-input-container {
+        width: 70%;
+        margin: 16px auto;
+    }
+
+    .newsletter-image-container {
+        width: 85%;
+        height: 300px;
+        margin: 0px auto;
+    }
+    .newsletter-image-container .save{
+        width: 215px;
+        height: 80px;
+        right: 12px;
+        bottom: 60px;
+        transform: rotate(338deg);
+    }
+    .save p{
+        font-size: 15px;
+    }
+    .save h3{
+        font-size: 21px;
+    }
 }

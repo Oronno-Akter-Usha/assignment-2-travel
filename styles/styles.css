@@ -371,6 +371,10 @@ h2 {
     /* max-width: 672px; */
     position: relative;
 }
+
+.newsletter-image-container img{
+    width: 100%;
+}
 .newsletter-image-container .save {
     width: 304px;
     height: 120px;
