@@ -135,6 +135,9 @@ h2{
 .tour-image{
     width: 45%;
 }
+.tour-image img{
+    width: 100%;
+}
 
 .tour-text h2{
     margin-bottom: 24px;

@@ -1,4 +1,16 @@
 @media screen and (max-width:600px) {
+
+    /* h2 and p font size  */
+    h2{
+        font-size: 1.25rem;
+        font-weight: 800;
+    }
+    p{
+        font-size: 0.88rem;
+        font-weight: 400;
+    }
+
+    /* banner section style */
     .banner-container {
         width: 90%;
         height: 500px;
@@ -23,5 +35,27 @@
     .banner-select,
     .banner-btn{
         width: 90%;
+    }
+
+    /* tour section style */
+    .tour-container{
+        flex-direction: column;
+
+    }
+
+    .tour-text, .tour-image{
+        width: 90%;
+    }
+
+    .tour-text ul li {
+        width: 80%;
+        margin-left: 5%;
+        /* margin-right: 10%; */
+    }
+    
+    .tour-image{
+        margin-top: 50px;
+        display: flex;
+        justify-content: center;
     }
 }
