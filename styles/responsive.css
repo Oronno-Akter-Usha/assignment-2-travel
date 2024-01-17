@@ -40,7 +40,7 @@
     }
 
     #click{
-        text-align: right;
+        display: none;
     }
 
     #click:checked ~ .menu ul{
