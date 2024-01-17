@@ -72,12 +72,17 @@ h2 {
 
 /* nav-section */
 
+/* nav{
+    position: relative;
+    background-color: #f0cebd;
+} */
 .nav-container{
     max-width: 1170px;
     margin: 50px auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
+
 }
 
 .menu ul{
@@ -90,6 +95,26 @@ h2 {
     color: #424247;
     text-decoration: none;
     font-size: 18px;
+}
+
+.menu ul a:hover{
+    color: var(--primary-color);
+}
+
+.menu ul a.active{
+    color: var(--primary-color);
+}
+
+
+.menu-btn i{
+    text-align: right;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+#click{
+    display: none;
 }
 
 /* banner section style */

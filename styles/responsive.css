@@ -10,13 +10,55 @@
         font-size: 0.88rem;
         font-weight: 400;
     }
-
+    /* logo-img */
     .logo-img{
         width: 40px;
     }
-    .menu{
-        display: none;
+    /* nav section */
+
+    .nav-container{
+        width: 90%;
     }
+
+    .menu ul{
+       position: fixed; 
+        top: 100px;
+        left: -100%;
+        height: 100vh;
+        width: 100%;
+        display: block;
+        text-align: center;
+        transition: all 0.5s ease;
+        background-color: #ebd6bc;
+    }
+
+
+    .menu ul a{
+        color: #000000;
+        text-decoration: none;
+        font-size: 18px;
+    }
+
+    #click{
+        text-align: right;
+    }
+
+    #click:checked ~ .menu ul{
+        left: 0%;
+    }
+    .menu ul li{
+        margin: 40px 0;
+        display: block;
+
+    }
+
+    .menu-btn i{
+        display: inline-block;
+        margin-top: -10px;
+    }
+
+    
+   
 
     /* banner section style */
     .banner-container {
